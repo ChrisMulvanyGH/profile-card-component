@@ -31,7 +31,7 @@ You can use any tools you like to help you complete the challenge. So if you've 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-css-mobile-first-profile-card-component-SkZQQFh4c)
 - Live Site URL: [Github Pages](https://chrismulvanygh.github.io/profile-card-component/)
 
 ## My process
