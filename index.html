@@ -2,10 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
   <title>Frontend Mentor | Profile card component</title>
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -13,12 +11,11 @@
   <main>
     <div class="container">
       <article class="card">
-        <header class="card__header col col-jcai-center">
-          <img class="card__header__bg__img" src="./images/bg-pattern-card.svg" alt="Profile Card Header">
-          <img class="card__header__profile__img" src="./images/image-victor.jpg" alt="Victor Crest">
+        <header class="header col col-jcai-center">
+          <img class="header-img" src="./images/bg-pattern-card.svg" alt="Profile Card Header">
+          <img class="profile-img" src="./images/image-victor.jpg" alt="Victor Crest">
         </header>
-
-        <div class="card__body col col-ai-center">
+        <div class="body col col-ai-center">
           <div class="row">
             <h1 class="name">Victor Crest</h1>
             <div class="age">26</div>
@@ -28,25 +25,19 @@
           </div>
           <hr/>
         </div>
-
-        <footer class="card__footer">
-          <div class="row row-jc-se">
-            <div class="stats">80K <br/> <span class="labels">Followers</span> </div>
-            <div class="stats">803K <br/> <span class="labels">Likes</span></div>
-            <div class="stats">1.4K <br/> <span class="labels">Photos</span></div>
-          </div>
-          <!-- <div class="row row-jc-se">
-            <div class="labels">Followers</div>
-            <div class="labels">Likes</div>
-            <div class="labels">Photos</div>
-          </div> -->
+        <footer class="footer">
+          <ul class="row row-jc-se">
+            <li class="stats">80K <span class="labels">Followers</span></li>
+            <li class="stats">803K <span class="labels">Likes</span></li>
+            <li class="stats">1.4K <span class="labels">Photos</span></li>
+          </ul>
         </footer>
       </article> 
     </div>
-      <!-- <div class="attribution">
+      <div class="attribution">
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
         Coded by <a href="#">Chris Mulvany</a>.
-      </div> -->
+      </div>
   </main>
 </body>
 </html>
